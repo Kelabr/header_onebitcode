@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    height: 7vh;
+    justify-content: space-between;
+    padding: 1px 25px;
+    align-items: center;
+    
+}
+
+.imgs{
+    height: 30px;
+}
+
+nav{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+button{
+    height: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+button:hover{
+    border: 2px solid red;
+    color: red;
+    cursor: pointer;
+}
